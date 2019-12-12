@@ -10,3 +10,17 @@ body
 
     border-radius: 50%;
 }
+.container {
+    width: 70%;
+    border: 3px solid red;
+    padding: 10px;
+    margin: 4px auto;
+    text-align: left;
+
+}
+.container h1
+{
+    font-size: 20px;
+    color: black;
+    text-align: center;
+}
