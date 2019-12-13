@@ -10,6 +10,85 @@ body
 
     border-radius: 50%;
 }
+
+.barra {
+    width: 100%;
+    position: relative;
+    z-index: 2000;/* para colocarlo uno delante del otro*/
+    padding: 10px;
+    background-color: black;
+}
+.sub_barra {
+    display: flex;
+    flex-wrap: wrap;/*elementos que no entren se ballan hacia bajo */
+    justify-content: space-between; /*alinear en el eje principal en este caso el horizontal */
+    align-items: center; /* alinear en el eje secundario en este caso el vertical */
+}
+.icon-menu {
+    display: block;
+    color: rgba(177, 140, 18, 0.884);
+}
+.social-icon {
+    float: right;
+    display: flex;
+    justify-content: space-between;
+    width: 10%;
+    margin-right: 1%;
+}
+.social-icon [class*="icon-"]
+{
+    color: cornsilk;
+    margin-left: 1%;
+    margin-right: 1%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3em;/* tamaño del icono*/
+    width: 20px;/*ancho entre los icon*/
+    height: 35px;/* alto entre los icon*/
+    border-radius: 50%;
+
+}
+.social-icon__link {
+    text-decoration: none;
+    
+}
+.menu {
+    
+    top: 60px;/*tamaño en el que aparecera*/
+    left: 0;/* para que no se tire a la izquierda*/
+    width: 72%;
+    padding: 0;
+    margin: 0;
+    margin-right: 10%;
+    list-style: none;/* quita los puntos de la lista*/ 
+    justify-content: space-between; 
+    display: inline-flex;  
+}
+.menu__link
+{
+    text-decoration: none;
+    color: darkgoldenrod;
+
+}
+.menu__link:hover {
+    background: rgba(177, 140, 18, 0.884);
+    text-decoration: none;
+    color: cornsilk;
+    padding: 30%;
+    margin: 0;
+}
+.menu__link--select {
+    
+    text-decoration: none;
+
+}
+.menu_item
+{
+    padding: 50px;
+   
+}
+
 .container {
     width: 70%;
     border: 3px solid red;
