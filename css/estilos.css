@@ -6,9 +6,28 @@ body
     font-family: "Arial";
 
 }
-.imagen img {
+.cabecera
+{
+    width: 100%;
+    height: 300px;
+    border: 2px solid red;
+}
+.cabecera .hola
+{
+    text-align:  center;
+    float: center;
+    padding: 10px;
+    font-size: 70px;
+}
+.cabecera .imagen
+{
+    float: right;
+}
+.cabecera .imagen img {
 
     border-radius: 50%;
+    width: 250px;
+    height: 250px;
 }
 .container {
     width: 70%;
