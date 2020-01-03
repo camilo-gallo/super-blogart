@@ -16,6 +16,7 @@ body
     margin-top: 0;
     
 }
+/*---------------------------------HEADER--------------------------------------*/
 .cabecera
 {
     width: 100%;
@@ -62,6 +63,8 @@ body
     width: 250px;
     height: 250px;
 }
+
+/*---------------------------------NAV--------------------------------------*/
 
 .barra {
     width: 100%;
@@ -141,6 +144,8 @@ body
    
 }
 
+/*---------------------------------ARTICLE--------------------------------------*/
+
 .container {
     width: 85%;
     height: 100%;
@@ -163,3 +168,36 @@ body
 {
     color: black;
 }
+
+/*---------------------------------FOOTER--------------------------------------*/
+.main-footer
+{
+    background: #222;
+    color: white;
+    padding: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border:1px solid white ;
+
+}
+.main-footer .container__flex
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.main-footer .copy
+{
+    text-align: center;
+    margin: auto;
+    margin-top: 15px;
+}
+
+.main-footer .container__flex [class*="icon-"]
+{
+    color: rgb(227, 235, 226);
+    text-decoration: none;
+}
+
